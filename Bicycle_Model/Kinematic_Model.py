@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
 """
-	This code describes the kinematic of a Bicycle-model and based on that evolves a "Figure Eight" trajectory. This trajectory can be replaced with any, by changing the velocity (v_data) and the steering 		angle(delta), steering angle rate (w) in the __main__
+	This code describes the kinematic of a Bicycle-model and based on that evolves a "Figure Eight" trajectory. This trajectory can be replaced with any, 
+	by changing the velocity (v_data) and the steering angle(delta), steering angle rate (w) in the __main__ .
 """
 class Bicycle():
     def __init__(self):
